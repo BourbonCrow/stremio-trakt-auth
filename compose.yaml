@@ -2,7 +2,7 @@ name: stremio-trakt-auth
 
 services:
   stremio-trakt-auth:
-    image: markflaisz/stremio-trakt-auth:latest
+    image: bourboncrow/stremio-trakt-auth:latest
     container_name: stremio-trakt-auth
     network_mode: bridge
     restart: unless-stopped
@@ -25,7 +25,7 @@ services:
     privileged: false
 
 x-casaos:
-  author: markflaisz
+  author: bourboncrow
   category: self
   icon: https://static-00.iconduck.com/assets.00/trakt-icon-2048x2048-2633ksxg.png
   index: /
@@ -34,3 +34,4 @@ x-casaos:
   store_app_id: stremio-trakt-auth
   title:
     custom: Stremio Trakt Auth
+
