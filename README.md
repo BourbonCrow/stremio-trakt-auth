@@ -46,7 +46,7 @@ docker run -d \
   -e stremioPassword=your_stremio_password \
   -e traktEmail=your_trakt_email \
   -e traktPassword=your_trakt_password \
-  markflaisz/stremio-trakt-auth:latest
+  bourboncrow/stremio-trakt-auth:latest
 ```
 
 ---
